@@ -1,0 +1,30 @@
+@keyframes move-pen{
+    from {
+        transform: translateX(10px);
+    }
+    33% {
+        transform: translateY(2px);
+        transform: rotate(6deg);
+    }
+    66% {
+        transform: translateY(-2px);
+        transform: rotate(-6deg);
+    }
+    to {
+        transform: translateX(-10px);
+    }
+}
+@keyframes dot{
+    from {
+        width: 2px;
+    }
+    33% {
+        width: 7px;
+    }
+    66% {
+        width: 7px;
+    }
+    to {
+        width: 20px;
+    }
+}
