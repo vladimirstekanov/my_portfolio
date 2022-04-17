@@ -61,19 +61,27 @@
         column-gap: 35px;
     }
     &__privacy {
+        position: relative;
         font-size: 12px;
         font-weight: 500;
         display: flex;
         align-items: center;
+        // .error {
+        //     top: 4480px;
+        //     left: 947px;
+        //     font-size: 10px;
+        //     color: red;
+        // }
         input {
             margin-right: 10px;
         }
         .error {
-            top: 4450px;
-            left: 950px;
+            top: 33px;
+            left: 15px;
+            color: red;
             font-size: 10px;
-            color: $main-color;
         }
+        
         
     }
     &__input {
@@ -86,9 +94,9 @@
             font-weight: 500;
         }
         .error {
-            top: 47px;
+            top: 49px;
             font-size: 10px;
-            color: $main-color;
+            color: red;
         }
     }
     &__textarea {
