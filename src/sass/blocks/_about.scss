@@ -85,7 +85,7 @@
     }
     &__skills {
         display: grid;
-        grid-template: repeat(2, minmax(115px, auto)) / 300px 300px;
+        grid-template: minmax(115px, auto) / 300px 300px;
         grid-auto-rows: 1fr;
         column-gap: 50px;
         row-gap: 20px;
